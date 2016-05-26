@@ -4,7 +4,7 @@ class TwitchService
   def initialize
     @connection = Faraday.new(url: "https://api.twitch.tv/kraken")
     connection.headers["Accept"] = "application/vnd.twitchtv.v3+json"
-    connection.headers["Client-ID"] = "bk947yhs5fgjushej8xtark89x1h0jv"
+    connection.headers["Client-ID"] = ENV["CLIENT_ID"]
   end
 
   def followed_hash(token)
