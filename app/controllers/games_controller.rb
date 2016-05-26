@@ -4,6 +4,7 @@ class GamesController < ApplicationController
   end
 
   def show
+    @game = params[:id]
     @streams = Stream.find_by(params[:id])
   end
 end

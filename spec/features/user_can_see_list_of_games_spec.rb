@@ -13,8 +13,7 @@ RSpec.feature "user visits games index" do
 
       within(".Overwatch") do
         expect(page).to have_content("Overwatch")
-        expect(page).to have_content("Viewers: 81334")
-        expect(page).to have_content("Channels: 4069")
+        expect(page).to have_content("81334 viewers watching on 4069 channels.")
       end
     end
   end

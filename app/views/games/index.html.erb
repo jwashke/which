@@ -1,14 +1,19 @@
 <div class="top-margin">
   <div class="container">
     <% @games.each_slice(3) do |three_games| %>
-      <div class="row">
+      <div class="row game-row">
         <% three_games.each do |game| %>
           <div class="col-md-4 <%= game.name %>">
-            <img src="<%= game.box_art %>"/>
-            <h5><%= game.name %></h5>
-            <p>Viewers: <%= game.viewers %></p>
-            <p>Channels: <%= game.channels %></p>
-            <%= link_to "View Streams", game_path(game.name) %>
+            <%= link_to game_path(game.name) do %>
+              <img alt="box-art" src="<%= game.box_art %>"/>
+            <% end %>
+            <p class="game-caption"><%= game.name %></p>
+            <p class="stream-caption">
+              <span class="oswald"><%= game.viewers %></span>
+              viewers watching on
+              <span class="oswald"><%= game.channels %></span>
+              channels.
+            </p>
           </div>
         <% end %>
       </div>

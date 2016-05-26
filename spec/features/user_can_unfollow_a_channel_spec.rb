@@ -7,10 +7,10 @@ RSpec.feature "user unfollows a channel" do
       click_link "Sign In"
 
       within(".VGBootCamp") do
-        click_link "Follow Stream"
+        click_link "Follow"
       end
       within(".VGBootCamp") do
-        click_link "Unfollow Stream"
+        click_link "Unfollow"
       end
 
       expect(current_path).to eq(following_path)

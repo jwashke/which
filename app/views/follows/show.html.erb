@@ -1,19 +1,23 @@
 <div class="top-margin">
   <div class="container">
     <div class="row">
-      <h1>Your Followed Streams</h1>
+      <h1 class="headline">Your Followed Streams</h1>
     </div>
     <% @streams.each_slice(3) do |three_streams| %>
       <div class="row">
         <% three_streams.each do |stream| %>
-          <div class="col-md-4 <%= stream.name %>">
-            <img src="<%= stream.preview %>"/>
-            <h5><%= stream.name %></h5>
-            <p>Viewers: <%= stream.viewers %></p>
-            <p><%= stream.description %></p>
-            <%= link_to_unfollow(stream.name) %>
-            <%= link_to "View Stream", stream_path(stream.name) %>
-          </div>
+        <div class="col-md-4 <%= stream.name %> stream-card">
+          <%= link_to stream_path(stream.name) do %>
+          <img src="<%= stream.preview %>"/>
+          <% end %>
+          <p class="stream-caption">
+            <span class="oswald"><%= stream.viewers %></span>
+            viewers watching
+            <span class="oswald"><%= stream.name %></span>
+          </p>
+          <p class="stream-description"><%= stream.description %></p>
+          <%= link_to_unfollow(stream.name) %>
+        </div>
         <% end %>
       </div>
     <% end %>

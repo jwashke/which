@@ -10,16 +10,16 @@ RSpec.feature "user visits game show " do
       end
 
       within(".Overwatch") do
-        click_link("View Streams")
+        click_link("box-art")
       end
 
       expect(current_path).to eq(game_path("Overwatch"))
       within(".TimTheTatman") do
-        expect(page).to have_content("Viewers: 14296")
+        expect(page).to have_content("14296 viewers watching TimTheTatman")
         expect(page).to have_content("not feeling to well, trying to push through;")
       end
       within(".GosuGamers") do
-        expect(page).to have_content("Viewers: 11569")
+        expect(page).to have_content("11569 viewers watching GosuGamers")
         expect(page).to have_content("Alienware Monthly Melee")
       end
     end

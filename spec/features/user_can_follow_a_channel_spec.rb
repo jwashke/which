@@ -7,7 +7,7 @@ RSpec.feature "user follows a channel" do
       click_link "Sign In"
 
       within(".VGBootCamp") do
-        click_link "Follow Stream"
+        click_link "Follow"
       end
 
       expect(current_path).to eq(following_path)
