@@ -58,7 +58,7 @@ RSpec.describe TwitchService do
         hash = service.followed_hash(0)
         expect(hash.count).to eq(2)
 
-        hash = service.follow("JoshOG", "mrjoshuagiraffe", "g7zrb07t3qne66s4r2m8174aiowv77")
+        hash = service.follow("JoshOG", "mrjoshuagiraffe", 0)
         hash = service.followed_hash(0)
         expect(hash.count).to eq(3)
       end
@@ -72,7 +72,7 @@ RSpec.describe TwitchService do
         hash = service.followed_hash(0)
         expect(hash.count).to eq(3)
 
-        hash = service.unfollow("JoshOG", "mrjoshuagiraffe", "g7zrb07t3qne66s4r2m8174aiowv77")
+        hash = service.unfollow("JoshOG", "mrjoshuagiraffe", 0)
         hash = service.followed_hash(0)
         expect(hash.count).to eq(2)
       end
