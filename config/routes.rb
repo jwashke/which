@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :games, only: [:index, :show]
   resources :streams, only: [:show]
   resources :follows, only: [:create, :destroy]
+  get "/following", to: "follows#show", as: :following
 end

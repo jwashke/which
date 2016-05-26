@@ -28,11 +28,15 @@ class TwitchService
   end
 
   def follow(channel, user, token)
+    user = remove_whitespace(user)
+    channel = remove_whitespace(channel)
     connection.headers["Authorization"] = "OAuth #{token}"
     connection.put("users/#{user}/follows/channels/#{channel}")
   end
 
   def unfollow(channel, user, token)
+    user = remove_whitespace(user)
+    channel = remove_whitespace(channel)
     connection.headers["Authorization"] = "OAuth #{token}"
     connection.delete("users/#{user}/follows/channels/#{channel}")
   end
@@ -49,12 +53,12 @@ class TwitchService
   end
 
   def get_channel(channel)
-    channel = channel.tr(" ", "+")
+    channel = remove_whitespace(channel)
     connection.get("streams?channel=#{channel}")
   end
 
   def get_streams(game)
-    game = game.tr(" ", "+")
+    game = remove_whitespace(game)
     connection.get("streams?game=#{game}")
   end
 
@@ -64,5 +68,9 @@ class TwitchService
 
   def parse(response)
     JSON.parse(response.body, symbolize_names: true)
+  end
+
+  def remove_whitespace(string)
+    string.tr(" ", "+")
   end
 end

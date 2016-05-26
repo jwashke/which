@@ -1,7 +1,7 @@
 <div class="top-margin">
   <div class="container">
     <div class="row">
-      <h1>Featured Streams</h1>
+      <h1>Your Followed Streams</h1>
     </div>
     <% @streams.each_slice(3) do |three_streams| %>
       <div class="row">
@@ -11,7 +11,7 @@
             <h5><%= stream.name %></h5>
             <p>Viewers: <%= stream.viewers %></p>
             <p><%= stream.description %></p>
-            <%= link_to_follow(stream.name) %>
+            <%= link_to_unfollow(stream.name) %>
             <%= link_to "View Stream", stream_path(stream.name) %>
           </div>
         <% end %>
