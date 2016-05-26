@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <h1><%= @stream.name %></h1>
+  </div>
+  <div class="row">
+    <div class="embed-container">
+      <iframe
+        src="http://player.twitch.tv/?channel=<%= @stream.name %>"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen="true">
+      </iframe>
+    </div>
+  </div>
+  <div class="row">
+    <p><%= @stream.description %></p>
+  </div>
+</div>

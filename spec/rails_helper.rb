@@ -23,7 +23,7 @@ OmniAuth.config.mock_auth[:twitch] = OmniAuth::AuthHash.new({
     }
   },
   credentials: {
-    token: '123456789'
+    token: ENV["USER_TOKEN"]
   }
 })
 

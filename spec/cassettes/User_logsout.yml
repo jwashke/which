@@ -1,0 +1,375 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/streams/featured?limit=12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/vnd.twitchtv.v3+json
+      Client-Id:
+      - bk947yhs5fgjushej8xtark89x1h0jv
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Headers:
+      - ''
+      Access-Control-Allow-Methods:
+      - ''
+      Access-Control-Allow-Origin:
+      - "*"
+      Age:
+      - '0'
+      Cache-Control:
+      - max-age=60, public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 25 May 2016 22:52:08 GMT
+      Etag:
+      - '"d70d540f6223ca9f3a9dc8d95af5de1f"'
+      Front-End-Https:
+      - 'on'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 varnish
+      X-Api-Version:
+      - '3'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Mh-Cache:
+      - rails-varnish-aws-44685883; M
+      X-Request-Id:
+      - 3c788578c39cd8f23f6fc27b049dedfb
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      X-Varnish:
+      - '1213482306'
+      Content-Length:
+      - '5672'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"_links":{"self":"https://api.twitch.tv/kraken/streams/featured?limit=12&offset=0","next":"https://api.twitch.tv/kraken/streams/featured?limit=12&offset=12"},"featured":[{"text":"<p>$3,000
+        is on the line as 64 teams battle it out in the biggest Overwatch tournament
+        held yet! Brought to you by Alienware, both sponsored teams and newcomers
+        alike will be battling it out for fame and glory in this launch week event!</p>\n\n<br>\n\n\n<p><a
+        href=\"/gosugamers\">Click here</a> to watch and chat!</p>\n","image":"https://s.jtvnw.net/jtv_user_pictures/hosted_images/gosugamers_fp_may2016.png","title":"Alienware
+        Monthly Melee","sponsored":false,"priority":5,"scheduled":true,"stream":{"_id":21511269616,"game":"Overwatch","viewers":7902,"video_height":1080,"average_fps":60.0110619469,"delay":0,"created_at":"2016-05-25T21:56:16Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/gosugamers"},"channel":{"mature":false,"status":"Alienware
+        Monthly Melee - CLOUD 9 vs LG- WB Semi-Finals  Casted by @TempoZP, @Slasher,
+        @Hexagrams - Second stream @ esl_overwatch","broadcaster_language":"en","display_name":"GosuGamers","game":"Overwatch","language":"en","_id":20891118,"name":"gosugamers","created_at":"2011-03-05T03:34:22Z","updated_at":"2016-05-25T22:34:30Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/gosugamers-profile_image-c795a1f05cfa0ba3-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/gosugamers-channel_offline_image-d9de85dbb0e2f530-1920x1080.jpeg","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/gosugamers-profile_banner-100ae7dbd206fce9-480.jpeg","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/gosugamers","views":2091717,"followers":18457,"_links":{"self":"https://api.twitch.tv/kraken/channels/gosugamers","follows":"https://api.twitch.tv/kraken/channels/gosugamers/follows","commercial":"https://api.twitch.tv/kraken/channels/gosugamers/commercial","stream_key":"https://api.twitch.tv/kraken/channels/gosugamers/stream_key","chat":"https://api.twitch.tv/kraken/chat/gosugamers","features":"https://api.twitch.tv/kraken/channels/gosugamers/features","subscriptions":"https://api.twitch.tv/kraken/channels/gosugamers/subscriptions","editors":"https://api.twitch.tv/kraken/channels/gosugamers/editors","teams":"https://api.twitch.tv/kraken/channels/gosugamers/teams","videos":"https://api.twitch.tv/kraken/channels/gosugamers/videos"}}}},{"text":"<p>Bringing
+        your the most addictive games for your iOS / Android.  Yes I''m serious, just
+        phone games.  Currently hooked on Clash Royale!</p>\n\n<br>\n\n\n<p><a href=\"/phonecats\">Click
+        here</a> to watch and chat.</p>\n","image":"https://s.jtvnw.net/jtv_user_pictures/hosted_images/phonecats_fp_april2016.jpg","title":"Phonecats
+        - Mobile Gaming","sponsored":false,"priority":5,"scheduled":true,"stream":{"_id":21507550944,"game":"Clash
+        Royale","viewers":3165,"video_height":720,"average_fps":25,"delay":0,"created_at":"2016-05-25T18:06:33Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/phonecats"},"channel":{"mature":false,"status":"Lost
+        to Molt while watching him :(","broadcaster_language":"en","display_name":"phonecats","game":"Clash
+        Royale","language":"en","_id":45921770,"name":"phonecats","created_at":"2013-07-11T16:02:45Z","updated_at":"2016-05-25T22:34:34Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/phonecats-profile_image-a536a337b2e58260-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/phonecats-channel_offline_image-c941c725f0d125f2-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/phonecats-profile_banner-e695488691b5233c-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/phonecats","views":1355065,"followers":95283,"_links":{"self":"https://api.twitch.tv/kraken/channels/phonecats","follows":"https://api.twitch.tv/kraken/channels/phonecats/follows","commercial":"https://api.twitch.tv/kraken/channels/phonecats/commercial","stream_key":"https://api.twitch.tv/kraken/channels/phonecats/stream_key","chat":"https://api.twitch.tv/kraken/chat/phonecats","features":"https://api.twitch.tv/kraken/channels/phonecats/features","subscriptions":"https://api.twitch.tv/kraken/channels/phonecats/subscriptions","editors":"https://api.twitch.tv/kraken/channels/phonecats/editors","teams":"https://api.twitch.tv/kraken/channels/phonecats/teams","videos":"https://api.twitch.tv/kraken/channels/phonecats/videos"}}}},{"text":"<p>Hi,
+        I''m witwix, nice to meet you. Come watch me play video games, I dare you,
+        you won''t do it.</p>\n\n<br>\n\n\n<p><a href=\"/witwix\">Click here</a> to
+        watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/witwix_thumbnail.png","title":"Witwix","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21511287056,"game":"Super
+        Mario Maker","viewers":5988,"video_height":720,"average_fps":60.0550964187,"delay":0,"created_at":"2016-05-25T21:57:18Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/witwix"},"channel":{"mature":true,"status":":^)
+        - $500 May Giveaway - bit.ly/witwixMay","broadcaster_language":"en","display_name":"witwix","game":"Super
+        Mario Maker","language":"en","_id":11558942,"name":"witwix","created_at":"2010-04-03T03:29:12Z","updated_at":"2016-05-25T22:34:24Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/witwix-profile_image-cd0aa02be1f39e70-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/witwix-channel_offline_image-dab260ed86d8f54b-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/witwix-profile_banner-9d5b53264b442e40-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/witwix","views":8427038,"followers":272394,"_links":{"self":"https://api.twitch.tv/kraken/channels/witwix","follows":"https://api.twitch.tv/kraken/channels/witwix/follows","commercial":"https://api.twitch.tv/kraken/channels/witwix/commercial","stream_key":"https://api.twitch.tv/kraken/channels/witwix/stream_key","chat":"https://api.twitch.tv/kraken/chat/witwix","features":"https://api.twitch.tv/kraken/channels/witwix/features","subscriptions":"https://api.twitch.tv/kraken/channels/witwix/subscriptions","editors":"https://api.twitch.tv/kraken/channels/witwix/editors","teams":"https://api.twitch.tv/kraken/channels/witwix/teams","videos":"https://api.twitch.tv/kraken/channels/witwix/videos"}}}},{"text":"<p>Trump
+        -verb- To outdo / outrank / get the better of someone or something.  Trump
+        puts his name to the test by being ruthlessly efficient in his strategizing
+        and through his \"value plays.\"  Watch Trump explain his thought process
+        and insights as he trumps the competition!</p>\n\n<br>\n\n\n<p><a href=\"/TrumpSC\">Click
+        here</a> to watch and chat live!</p>\n\n<p><a href=\"pro,%20esports,%20HS\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/trump140x78.png","title":"Trump!","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21509480224,"game":"Hearthstone:
+        Heroes of Warcraft","viewers":11821,"video_height":1080,"average_fps":60,"delay":0,"created_at":"2016-05-25T20:00:20Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/trumpsc"},"channel":{"mature":false,"status":"Trump
+        Ladders","broadcaster_language":"en","display_name":"TrumpSC","game":"Hearthstone:
+        Heroes of Warcraft","language":"en","_id":14836307,"name":"trumpsc","created_at":"2010-08-21T02:09:05Z","updated_at":"2016-05-25T22:33:56Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/trumpsc-profile_image-0eca634ef027d36b-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/trumpsc-channel_offline_image-ba93fcc68a06c3d8-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/trumpsc","views":82999861,"followers":716543,"_links":{"self":"https://api.twitch.tv/kraken/channels/trumpsc","follows":"https://api.twitch.tv/kraken/channels/trumpsc/follows","commercial":"https://api.twitch.tv/kraken/channels/trumpsc/commercial","stream_key":"https://api.twitch.tv/kraken/channels/trumpsc/stream_key","chat":"https://api.twitch.tv/kraken/chat/trumpsc","features":"https://api.twitch.tv/kraken/channels/trumpsc/features","subscriptions":"https://api.twitch.tv/kraken/channels/trumpsc/subscriptions","editors":"https://api.twitch.tv/kraken/channels/trumpsc/editors","teams":"https://api.twitch.tv/kraken/channels/trumpsc/teams","videos":"https://api.twitch.tv/kraken/channels/trumpsc/videos"}}}},{"text":"<p>Welcome
+        to the tatmanarmy... the place where fun will be had and long days forgotten!
+        I hope you enjoy the stream and find a home here! Feel free to get more connected
+        below!</p>\n\n<br>\n\n\n<p><a href=\"/timthetatman\">Click here</a> to watch
+        and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/tatman-front-page.jpg","title":"TimTheTatMan","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21504256304,"game":"Overwatch","viewers":11491,"video_height":720,"average_fps":60.8571428571,"delay":0,"created_at":"2016-05-25T14:01:28Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/timthetatman"},"channel":{"mature":true,"status":"18hr
+        strum. not feeling to well, trying to push through; dbh.la/timthetatman","broadcaster_language":"en","display_name":"TimTheTatman","game":"Overwatch","language":"en","_id":36769016,"name":"timthetatman","created_at":"2012-10-08T18:13:50Z","updated_at":"2016-05-25T22:34:03Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-profile_image-35bdf9d7b751789e-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-channel_offline_image-f4e88d4e35841793-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/timthetatman","views":23802320,"followers":653025,"_links":{"self":"https://api.twitch.tv/kraken/channels/timthetatman","follows":"https://api.twitch.tv/kraken/channels/timthetatman/follows","commercial":"https://api.twitch.tv/kraken/channels/timthetatman/commercial","stream_key":"https://api.twitch.tv/kraken/channels/timthetatman/stream_key","chat":"https://api.twitch.tv/kraken/chat/timthetatman","features":"https://api.twitch.tv/kraken/channels/timthetatman/features","subscriptions":"https://api.twitch.tv/kraken/channels/timthetatman/subscriptions","editors":"https://api.twitch.tv/kraken/channels/timthetatman/editors","teams":"https://api.twitch.tv/kraken/channels/timthetatman/teams","videos":"https://api.twitch.tv/kraken/channels/timthetatman/videos"}}}},{"text":"<p>Brian
+        is a professional Magic player and game designer. Mostly streaming Magic Online
+        with fun and lively community interaction, but also tossing in a hint of League
+        of Legends and a splash of excitement. You might find yourself here for awhile.</p>\n\n<br>\n\n\n<p><a
+        href=\"/bmkibler\">Click here to watch and chat live!</a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/bmkibler.png","title":"Brian
+        M. Kibler Magic Pro!","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21507294944,"game":"Hearthstone:
+        Heroes of Warcraft","viewers":5126,"video_height":1080,"average_fps":60,"delay":0,"created_at":"2016-05-25T17:51:02Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/bmkibler"},"channel":{"mature":false,"status":"Kibler
+        - DragoNZoth Paladin !audible !allstar ","broadcaster_language":"en","display_name":"bmkibler","game":"Hearthstone:
+        Heroes of Warcraft","language":"en","_id":25871845,"name":"bmkibler","created_at":"2011-11-01T22:06:10Z","updated_at":"2016-05-25T22:34:30Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/bmkibler-profile_image-82e90b2dd9ab468b-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/bmkibler-channel_offline_image-e6cfa7f040914bad-1920x1080.jpeg","background":null,"profile_banner":null,"profile_banner_background_color":"#000000","partner":true,"url":"https://www.twitch.tv/bmkibler","views":6981610,"followers":183441,"_links":{"self":"https://api.twitch.tv/kraken/channels/bmkibler","follows":"https://api.twitch.tv/kraken/channels/bmkibler/follows","commercial":"https://api.twitch.tv/kraken/channels/bmkibler/commercial","stream_key":"https://api.twitch.tv/kraken/channels/bmkibler/stream_key","chat":"https://api.twitch.tv/kraken/chat/bmkibler","features":"https://api.twitch.tv/kraken/channels/bmkibler/features","subscriptions":"https://api.twitch.tv/kraken/channels/bmkibler/subscriptions","editors":"https://api.twitch.tv/kraken/channels/bmkibler/editors","teams":"https://api.twitch.tv/kraken/channels/bmkibler/teams","videos":"https://api.twitch.tv/kraken/channels/bmkibler/videos"}}}},{"text":"<p>Kaypea''s
+        stream is the premier destination for entertainment seeking gamers. Many have
+        expressed their love and appreciation of her videos, gameplay and cat.</p>\n\n<br>\n\n\n<p><a
+        href=\"/kaypealol\">Click here</a> to watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/kaypealol.jpg","title":"KayPea","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21511591008,"game":"Overwatch","viewers":1121,"video_height":1080,"average_fps":30,"delay":0,"created_at":"2016-05-25T22:18:23Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/kaypealol"},"channel":{"mature":false,"status":"KayPea
+        !newvideo","broadcaster_language":"en","display_name":"KayPeaLoL","game":"Overwatch","language":"en","_id":42665223,"name":"kaypealol","created_at":"2013-04-20T16:20:29Z","updated_at":"2016-05-25T22:49:19Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/kaypealol-profile_image-09e5c99bec90b2d5-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/kaypealol-channel_offline_image-720276c107cd791f-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/kaypealol","views":12846132,"followers":539342,"_links":{"self":"https://api.twitch.tv/kraken/channels/kaypealol","follows":"https://api.twitch.tv/kraken/channels/kaypealol/follows","commercial":"https://api.twitch.tv/kraken/channels/kaypealol/commercial","stream_key":"https://api.twitch.tv/kraken/channels/kaypealol/stream_key","chat":"https://api.twitch.tv/kraken/chat/kaypealol","features":"https://api.twitch.tv/kraken/channels/kaypealol/features","subscriptions":"https://api.twitch.tv/kraken/channels/kaypealol/subscriptions","editors":"https://api.twitch.tv/kraken/channels/kaypealol/editors","teams":"https://api.twitch.tv/kraken/channels/kaypealol/teams","videos":"https://api.twitch.tv/kraken/channels/kaypealol/videos"}}}},{"text":"<p>Professional
+        Halo player Ninja for Team Liquid teaches, entertains and interacts with his
+        viewers 5 days out of the week, come enjoy his funny shenanigans, hilarious
+        voice impressions, and tips and tricks that he delivers every day on his stream!</p>\n\n<br>\n\n\n<p><a
+        href=\"/ninja\">Click here</a> to watch and chat live!</p>\n\n<p><a href=\"pro,%20esports,%20halo\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/ninja_fpthumb_112014.jpg","title":"Ninja","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21506952416,"game":"H1Z1:
+        King of the Kill","viewers":1317,"video_height":720,"average_fps":61.1111111111,"delay":0,"created_at":"2016-05-25T17:28:59Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/ninja"},"channel":{"mature":false,"status":"All
+        donations go toward my brothers Non profit Org starting now! | Pure Perfection
+        Day 5","broadcaster_language":"en","display_name":"Ninja","game":"H1Z1: King
+        of the Kill","language":"en","_id":19571641,"name":"ninja","created_at":"2011-01-16T04:31:20Z","updated_at":"2016-05-25T22:34:27Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/ninja-profile_image-e5bd984826c3612d-300x300.jpeg","banner":null,"video_banner":null,"background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/ninja-profile_banner-a09cb9e66daa1e6a-480.jpeg","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/ninja","views":18192699,"followers":162148,"_links":{"self":"https://api.twitch.tv/kraken/channels/ninja","follows":"https://api.twitch.tv/kraken/channels/ninja/follows","commercial":"https://api.twitch.tv/kraken/channels/ninja/commercial","stream_key":"https://api.twitch.tv/kraken/channels/ninja/stream_key","chat":"https://api.twitch.tv/kraken/chat/ninja","features":"https://api.twitch.tv/kraken/channels/ninja/features","subscriptions":"https://api.twitch.tv/kraken/channels/ninja/subscriptions","editors":"https://api.twitch.tv/kraken/channels/ninja/editors","teams":"https://api.twitch.tv/kraken/channels/ninja/teams","videos":"https://api.twitch.tv/kraken/channels/ninja/videos"}}}},{"text":"<p>Welcome
+        to Team Tangent; a brotherhood and\nsisterhood of casual and hardcore gamers
+        alike. High energy and high viewer\ninteractivity is Tangent''s creed as he
+        tackles rage inducing challenges\nwhile taking on some of the best (and worst)
+        games from yesterday and\ntoday! If you like Persian kittens, beards and a
+        tightly knit community\nthen Tangentgaming is for you!</p>\n\n<br>\n\n\n<p><a
+        href=\"/tangentgaming\">Click here</a> to watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/TangRageBanner
+        140x78.png","title":"Tangentgaming","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21504542960,"game":"Total
+        War: WARHAMMER","viewers":1547,"video_height":720,"average_fps":60,"delay":0,"created_at":"2016-05-25T14:25:50Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/tangentgaming"},"channel":{"mature":false,"status":"Warhammer
+        Giveaway! - [Hard] Chaos Campaign!","broadcaster_language":"en","display_name":"TangentGaming","game":"Total
+        War: WARHAMMER","language":"en","_id":40314423,"name":"tangentgaming","created_at":"2013-02-14T15:19:05Z","updated_at":"2016-05-25T22:34:05Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_image-d91b58cc81cbcb5d-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-channel_offline_image-1e09a1314d3708b2-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_banner-0ca2e5010c14968c-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/tangentgaming","views":3455904,"followers":130172,"_links":{"self":"https://api.twitch.tv/kraken/channels/tangentgaming","follows":"https://api.twitch.tv/kraken/channels/tangentgaming/follows","commercial":"https://api.twitch.tv/kraken/channels/tangentgaming/commercial","stream_key":"https://api.twitch.tv/kraken/channels/tangentgaming/stream_key","chat":"https://api.twitch.tv/kraken/chat/tangentgaming","features":"https://api.twitch.tv/kraken/channels/tangentgaming/features","subscriptions":"https://api.twitch.tv/kraken/channels/tangentgaming/subscriptions","editors":"https://api.twitch.tv/kraken/channels/tangentgaming/editors","teams":"https://api.twitch.tv/kraken/channels/tangentgaming/teams","videos":"https://api.twitch.tv/kraken/channels/tangentgaming/videos"}}}},{"text":"<p>itmeJP
+        is a veteran of Twitch, starting his streaming career alongside the website
+        years ago. These days you can find him playing a multitude of games including
+        old school favorites and new releases. Subscribers, or itmeNATION as they
+        prefer to be called, go crazy for his table-top franchise, RollPlay, occuring
+        weekly across four shows. Stop by and join in the fun!</p>\n\n<br>\n\n\n<p><a
+        href=\"/itmejp\">Click here</a> to watch and chat live!</p>\n\n<p><a href=\"personality,%20variety,%20community,%20esports\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/itmejp_fpthumb_102515.png","title":"itmejp","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21510299920,"game":"Gaming
+        Talk Shows","viewers":7769,"video_height":1080,"average_fps":30.0075018755,"delay":0,"created_at":"2016-05-25T20:51:52Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/itmejp"},"channel":{"mature":true,"status":"Dropped
+        Frames | !DFE3 | w/ @CohhCarnage @Ezekiel_III","broadcaster_language":"en","display_name":"itmeJP","game":"Gaming
+        Talk Shows","language":"en","_id":10817445,"name":"itmejp","created_at":"2010-02-28T09:30:51Z","updated_at":"2016-05-25T22:33:58Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/itmejp-profile_image-64703923f21827e3-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/itmejp-channel_offline_image-b6a3081f062bca44-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/itmejp-profile_banner-4a0a3242b7445758-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/itmejp","views":38212748,"followers":235760,"_links":{"self":"https://api.twitch.tv/kraken/channels/itmejp","follows":"https://api.twitch.tv/kraken/channels/itmejp/follows","commercial":"https://api.twitch.tv/kraken/channels/itmejp/commercial","stream_key":"https://api.twitch.tv/kraken/channels/itmejp/stream_key","chat":"https://api.twitch.tv/kraken/chat/itmejp","features":"https://api.twitch.tv/kraken/channels/itmejp/features","subscriptions":"https://api.twitch.tv/kraken/channels/itmejp/subscriptions","editors":"https://api.twitch.tv/kraken/channels/itmejp/editors","teams":"https://api.twitch.tv/kraken/channels/itmejp/teams","videos":"https://api.twitch.tv/kraken/channels/itmejp/videos"}}}},{"text":"<p>Cirno
+        is a community driven speedrunner that primarily enjoys old FPS titles. DooM
+        2, Half-Life, System Shock 2 and Quake are just a few examples of what you''ll
+        find here.</p>\n\n<br>\n\n\n<p><a href=\"/cirno_tv\">Come watch and enjoy</a>!</p>\n\n<p><a
+        href=\"speedrunner,%20variety\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/cirnotv.png","title":"CirnoTV","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21510414064,"game":"Dark
+        Souls III","viewers":1752,"video_height":720,"average_fps":60.0583090379,"delay":0,"created_at":"2016-05-25T20:59:19Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/cirno_tv"},"channel":{"mature":false,"status":"Dark
+        Souls III All Bosses! No resets after curse rotted","broadcaster_language":"en","display_name":"Cirno_TV","game":"Dark
+        Souls III","language":"en","_id":24761645,"name":"cirno_tv","created_at":"2011-09-12T03:14:37Z","updated_at":"2016-05-25T22:34:33Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/cirno_tv-profile_image-0eae52249cb6fecb-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/cirno_tv-channel_offline_image-6a5f6f2ecf75023b-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/cirno_tv-profile_banner-c6359b4dc3ed7687-480.jpeg","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/cirno_tv","views":7852502,"followers":137450,"_links":{"self":"https://api.twitch.tv/kraken/channels/cirno_tv","follows":"https://api.twitch.tv/kraken/channels/cirno_tv/follows","commercial":"https://api.twitch.tv/kraken/channels/cirno_tv/commercial","stream_key":"https://api.twitch.tv/kraken/channels/cirno_tv/stream_key","chat":"https://api.twitch.tv/kraken/chat/cirno_tv","features":"https://api.twitch.tv/kraken/channels/cirno_tv/features","subscriptions":"https://api.twitch.tv/kraken/channels/cirno_tv/subscriptions","editors":"https://api.twitch.tv/kraken/channels/cirno_tv/editors","teams":"https://api.twitch.tv/kraken/channels/cirno_tv/teams","videos":"https://api.twitch.tv/kraken/channels/cirno_tv/videos"}}}},{"text":"<p>ZFG
+        is a top speedrunner for The Legend of Zelda: Ocarina of time. Come watch
+        one of the greatest games of all time torn to pieces!</p>\n\n<br>\n\n\n<p><a
+        href=\"/zfg1\">Click here</a> to watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/Zfg_fp_thumb.png","title":"ZFG","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21508763200,"game":"The
+        Legend of Zelda: Ocarina of Time","viewers":1526,"video_height":720,"average_fps":30,"delay":0,"created_at":"2016-05-25T19:17:14Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/zfg1"},"channel":{"mature":false,"status":"Zelda:
+        Ocarina of Time 100% Speedrun","broadcaster_language":"en","display_name":"Zfg1","game":"The
+        Legend of Zelda: Ocarina of Time","language":"en","_id":8683614,"name":"zfg1","created_at":"2009-10-12T22:49:29Z","updated_at":"2016-05-25T22:34:03Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/zfg1-profile_image-2643dd004eceaf08-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/zfg1-channel_offline_image-927763cfdbf76f43-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/zfg1","views":6136922,"followers":66305,"_links":{"self":"https://api.twitch.tv/kraken/channels/zfg1","follows":"https://api.twitch.tv/kraken/channels/zfg1/follows","commercial":"https://api.twitch.tv/kraken/channels/zfg1/commercial","stream_key":"https://api.twitch.tv/kraken/channels/zfg1/stream_key","chat":"https://api.twitch.tv/kraken/chat/zfg1","features":"https://api.twitch.tv/kraken/channels/zfg1/features","subscriptions":"https://api.twitch.tv/kraken/channels/zfg1/subscriptions","editors":"https://api.twitch.tv/kraken/channels/zfg1/editors","teams":"https://api.twitch.tv/kraken/channels/zfg1/teams","videos":"https://api.twitch.tv/kraken/channels/zfg1/videos"}}}}]}'
+    http_version: 
+  recorded_at: Wed, 25 May 2016 22:52:07 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/streams/followed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/vnd.twitchtv.v3+json
+      Client-Id:
+      - bk947yhs5fgjushej8xtark89x1h0jv
+      Authorization:
+      - OAuth rmczfyu5lza3swxoa2ht860lurlciy
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Client-ID, Twitch-Api-Token, X-Forwarded-Proto, X-Requested-With
+      Access-Control-Allow-Origin:
+      - "*"
+      Age:
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 25 May 2016 22:52:09 GMT
+      Front-End-Https:
+      - 'on'
+      Server:
+      - nginx
+      Vary:
+      - Accept, X-Forwarded-Proto, Front-End-Https
+      Via:
+      - 1.1 varnish
+      X-Api-Version:
+      - '3'
+      X-Varnish:
+      - '1041495239'
+      Content-Length:
+      - '1050'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"streams":[{"_id":21503796432,"game":"Hearthstone: Heroes of Warcraft","viewers":17085,"created_at":"2016-05-25T13:19:30Z","video_height":1080,"average_fps":60.0600600601,"delay":0,"is_playlist":false,"_links":{"self":"https://api.twitch.tv/kraken/streams/savjz"},"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_savjz-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_savjz-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_savjz-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_savjz-{width}x{height}.jpg"},"channel":{"mature":false,"status":"yogg
+        druid","broadcaster_language":"en","display_name":"Savjz","game":"Hearthstone:
+        Heroes of Warcraft","language":"en","_id":43131877,"name":"savjz","created_at":"2013-05-03T12:27:19Z","updated_at":"2016-05-25T22:34:31Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/savjz-profile_image-fcb7a4314f7a9e31-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/savjz-channel_offline_image-d5f934a3be298830-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/savjz-profile_banner-5478456019f9dd73-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/savjz","views":12285993,"followers":197579,"_links":{"self":"http://api.twitch.tv/kraken/channels/savjz","follows":"http://api.twitch.tv/kraken/channels/savjz/follows","commercial":"http://api.twitch.tv/kraken/channels/savjz/commercial","stream_key":"http://api.twitch.tv/kraken/channels/savjz/stream_key","chat":"http://api.twitch.tv/kraken/chat/savjz","features":"http://api.twitch.tv/kraken/channels/savjz/features","subscriptions":"http://api.twitch.tv/kraken/channels/savjz/subscriptions","editors":"http://api.twitch.tv/kraken/channels/savjz/editors","teams":"http://api.twitch.tv/kraken/channels/savjz/teams","videos":"http://api.twitch.tv/kraken/channels/savjz/videos"}}},{"_id":21509480224,"game":"Hearthstone:
+        Heroes of Warcraft","viewers":11687,"created_at":"2016-05-25T20:00:20Z","video_height":1080,"average_fps":60,"delay":0,"is_playlist":false,"_links":{"self":"https://api.twitch.tv/kraken/streams/trumpsc"},"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-{width}x{height}.jpg"},"channel":{"mature":false,"status":"Trump
+        Ladders","broadcaster_language":"en","display_name":"TrumpSC","game":"Hearthstone:
+        Heroes of Warcraft","language":"en","_id":14836307,"name":"trumpsc","created_at":"2010-08-21T02:09:05Z","updated_at":"2016-05-25T22:33:56Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/trumpsc-profile_image-0eca634ef027d36b-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/trumpsc-channel_offline_image-ba93fcc68a06c3d8-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/trumpsc","views":82999861,"followers":716545,"_links":{"self":"http://api.twitch.tv/kraken/channels/trumpsc","follows":"http://api.twitch.tv/kraken/channels/trumpsc/follows","commercial":"http://api.twitch.tv/kraken/channels/trumpsc/commercial","stream_key":"http://api.twitch.tv/kraken/channels/trumpsc/stream_key","chat":"http://api.twitch.tv/kraken/chat/trumpsc","features":"http://api.twitch.tv/kraken/channels/trumpsc/features","subscriptions":"http://api.twitch.tv/kraken/channels/trumpsc/subscriptions","editors":"http://api.twitch.tv/kraken/channels/trumpsc/editors","teams":"http://api.twitch.tv/kraken/channels/trumpsc/teams","videos":"http://api.twitch.tv/kraken/channels/trumpsc/videos"}}}],"_total":2,"_links":{"self":"https://api.twitch.tv/kraken/streams/followed?limit=25\u0026offset=0","next":"https://api.twitch.tv/kraken/streams/followed?limit=25\u0026offset=25"}}
+
+'
+    http_version: 
+  recorded_at: Wed, 25 May 2016 22:52:07 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/streams/featured?limit=12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/vnd.twitchtv.v3+json
+      Client-Id:
+      - bk947yhs5fgjushej8xtark89x1h0jv
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Headers:
+      - ''
+      Access-Control-Allow-Methods:
+      - ''
+      Access-Control-Allow-Origin:
+      - "*"
+      Age:
+      - '1'
+      Cache-Control:
+      - max-age=60, public
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 25 May 2016 22:52:09 GMT
+      Etag:
+      - '"d70d540f6223ca9f3a9dc8d95af5de1f"'
+      Front-End-Https:
+      - 'on'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 varnish
+      X-Api-Version:
+      - '3'
+      X-Cache:
+      - rails-varnish-aws-44685883; H
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 3c788578c39cd8f23f6fc27b049dedfb
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      X-Varnish:
+      - 1213489092 1213482306
+      Content-Length:
+      - '5672'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"_links":{"self":"https://api.twitch.tv/kraken/streams/featured?limit=12&offset=0","next":"https://api.twitch.tv/kraken/streams/featured?limit=12&offset=12"},"featured":[{"text":"<p>$3,000
+        is on the line as 64 teams battle it out in the biggest Overwatch tournament
+        held yet! Brought to you by Alienware, both sponsored teams and newcomers
+        alike will be battling it out for fame and glory in this launch week event!</p>\n\n<br>\n\n\n<p><a
+        href=\"/gosugamers\">Click here</a> to watch and chat!</p>\n","image":"https://s.jtvnw.net/jtv_user_pictures/hosted_images/gosugamers_fp_may2016.png","title":"Alienware
+        Monthly Melee","sponsored":false,"priority":5,"scheduled":true,"stream":{"_id":21511269616,"game":"Overwatch","viewers":7902,"video_height":1080,"average_fps":60.0110619469,"delay":0,"created_at":"2016-05-25T21:56:16Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_gosugamers-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/gosugamers"},"channel":{"mature":false,"status":"Alienware
+        Monthly Melee - CLOUD 9 vs LG- WB Semi-Finals  Casted by @TempoZP, @Slasher,
+        @Hexagrams - Second stream @ esl_overwatch","broadcaster_language":"en","display_name":"GosuGamers","game":"Overwatch","language":"en","_id":20891118,"name":"gosugamers","created_at":"2011-03-05T03:34:22Z","updated_at":"2016-05-25T22:34:30Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/gosugamers-profile_image-c795a1f05cfa0ba3-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/gosugamers-channel_offline_image-d9de85dbb0e2f530-1920x1080.jpeg","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/gosugamers-profile_banner-100ae7dbd206fce9-480.jpeg","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/gosugamers","views":2091717,"followers":18457,"_links":{"self":"https://api.twitch.tv/kraken/channels/gosugamers","follows":"https://api.twitch.tv/kraken/channels/gosugamers/follows","commercial":"https://api.twitch.tv/kraken/channels/gosugamers/commercial","stream_key":"https://api.twitch.tv/kraken/channels/gosugamers/stream_key","chat":"https://api.twitch.tv/kraken/chat/gosugamers","features":"https://api.twitch.tv/kraken/channels/gosugamers/features","subscriptions":"https://api.twitch.tv/kraken/channels/gosugamers/subscriptions","editors":"https://api.twitch.tv/kraken/channels/gosugamers/editors","teams":"https://api.twitch.tv/kraken/channels/gosugamers/teams","videos":"https://api.twitch.tv/kraken/channels/gosugamers/videos"}}}},{"text":"<p>Bringing
+        your the most addictive games for your iOS / Android.  Yes I''m serious, just
+        phone games.  Currently hooked on Clash Royale!</p>\n\n<br>\n\n\n<p><a href=\"/phonecats\">Click
+        here</a> to watch and chat.</p>\n","image":"https://s.jtvnw.net/jtv_user_pictures/hosted_images/phonecats_fp_april2016.jpg","title":"Phonecats
+        - Mobile Gaming","sponsored":false,"priority":5,"scheduled":true,"stream":{"_id":21507550944,"game":"Clash
+        Royale","viewers":3165,"video_height":720,"average_fps":25,"delay":0,"created_at":"2016-05-25T18:06:33Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_phonecats-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/phonecats"},"channel":{"mature":false,"status":"Lost
+        to Molt while watching him :(","broadcaster_language":"en","display_name":"phonecats","game":"Clash
+        Royale","language":"en","_id":45921770,"name":"phonecats","created_at":"2013-07-11T16:02:45Z","updated_at":"2016-05-25T22:34:34Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/phonecats-profile_image-a536a337b2e58260-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/phonecats-channel_offline_image-c941c725f0d125f2-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/phonecats-profile_banner-e695488691b5233c-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/phonecats","views":1355065,"followers":95283,"_links":{"self":"https://api.twitch.tv/kraken/channels/phonecats","follows":"https://api.twitch.tv/kraken/channels/phonecats/follows","commercial":"https://api.twitch.tv/kraken/channels/phonecats/commercial","stream_key":"https://api.twitch.tv/kraken/channels/phonecats/stream_key","chat":"https://api.twitch.tv/kraken/chat/phonecats","features":"https://api.twitch.tv/kraken/channels/phonecats/features","subscriptions":"https://api.twitch.tv/kraken/channels/phonecats/subscriptions","editors":"https://api.twitch.tv/kraken/channels/phonecats/editors","teams":"https://api.twitch.tv/kraken/channels/phonecats/teams","videos":"https://api.twitch.tv/kraken/channels/phonecats/videos"}}}},{"text":"<p>Hi,
+        I''m witwix, nice to meet you. Come watch me play video games, I dare you,
+        you won''t do it.</p>\n\n<br>\n\n\n<p><a href=\"/witwix\">Click here</a> to
+        watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/witwix_thumbnail.png","title":"Witwix","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21511287056,"game":"Super
+        Mario Maker","viewers":5988,"video_height":720,"average_fps":60.0550964187,"delay":0,"created_at":"2016-05-25T21:57:18Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_witwix-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/witwix"},"channel":{"mature":true,"status":":^)
+        - $500 May Giveaway - bit.ly/witwixMay","broadcaster_language":"en","display_name":"witwix","game":"Super
+        Mario Maker","language":"en","_id":11558942,"name":"witwix","created_at":"2010-04-03T03:29:12Z","updated_at":"2016-05-25T22:34:24Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/witwix-profile_image-cd0aa02be1f39e70-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/witwix-channel_offline_image-dab260ed86d8f54b-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/witwix-profile_banner-9d5b53264b442e40-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/witwix","views":8427038,"followers":272394,"_links":{"self":"https://api.twitch.tv/kraken/channels/witwix","follows":"https://api.twitch.tv/kraken/channels/witwix/follows","commercial":"https://api.twitch.tv/kraken/channels/witwix/commercial","stream_key":"https://api.twitch.tv/kraken/channels/witwix/stream_key","chat":"https://api.twitch.tv/kraken/chat/witwix","features":"https://api.twitch.tv/kraken/channels/witwix/features","subscriptions":"https://api.twitch.tv/kraken/channels/witwix/subscriptions","editors":"https://api.twitch.tv/kraken/channels/witwix/editors","teams":"https://api.twitch.tv/kraken/channels/witwix/teams","videos":"https://api.twitch.tv/kraken/channels/witwix/videos"}}}},{"text":"<p>Trump
+        -verb- To outdo / outrank / get the better of someone or something.  Trump
+        puts his name to the test by being ruthlessly efficient in his strategizing
+        and through his \"value plays.\"  Watch Trump explain his thought process
+        and insights as he trumps the competition!</p>\n\n<br>\n\n\n<p><a href=\"/TrumpSC\">Click
+        here</a> to watch and chat live!</p>\n\n<p><a href=\"pro,%20esports,%20HS\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/trump140x78.png","title":"Trump!","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21509480224,"game":"Hearthstone:
+        Heroes of Warcraft","viewers":11821,"video_height":1080,"average_fps":60,"delay":0,"created_at":"2016-05-25T20:00:20Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_trumpsc-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/trumpsc"},"channel":{"mature":false,"status":"Trump
+        Ladders","broadcaster_language":"en","display_name":"TrumpSC","game":"Hearthstone:
+        Heroes of Warcraft","language":"en","_id":14836307,"name":"trumpsc","created_at":"2010-08-21T02:09:05Z","updated_at":"2016-05-25T22:33:56Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/trumpsc-profile_image-0eca634ef027d36b-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/trumpsc-channel_offline_image-ba93fcc68a06c3d8-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/trumpsc","views":82999861,"followers":716543,"_links":{"self":"https://api.twitch.tv/kraken/channels/trumpsc","follows":"https://api.twitch.tv/kraken/channels/trumpsc/follows","commercial":"https://api.twitch.tv/kraken/channels/trumpsc/commercial","stream_key":"https://api.twitch.tv/kraken/channels/trumpsc/stream_key","chat":"https://api.twitch.tv/kraken/chat/trumpsc","features":"https://api.twitch.tv/kraken/channels/trumpsc/features","subscriptions":"https://api.twitch.tv/kraken/channels/trumpsc/subscriptions","editors":"https://api.twitch.tv/kraken/channels/trumpsc/editors","teams":"https://api.twitch.tv/kraken/channels/trumpsc/teams","videos":"https://api.twitch.tv/kraken/channels/trumpsc/videos"}}}},{"text":"<p>Welcome
+        to the tatmanarmy... the place where fun will be had and long days forgotten!
+        I hope you enjoy the stream and find a home here! Feel free to get more connected
+        below!</p>\n\n<br>\n\n\n<p><a href=\"/timthetatman\">Click here</a> to watch
+        and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/tatman-front-page.jpg","title":"TimTheTatMan","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21504256304,"game":"Overwatch","viewers":11491,"video_height":720,"average_fps":60.8571428571,"delay":0,"created_at":"2016-05-25T14:01:28Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/timthetatman"},"channel":{"mature":true,"status":"18hr
+        strum. not feeling to well, trying to push through; dbh.la/timthetatman","broadcaster_language":"en","display_name":"TimTheTatman","game":"Overwatch","language":"en","_id":36769016,"name":"timthetatman","created_at":"2012-10-08T18:13:50Z","updated_at":"2016-05-25T22:34:03Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-profile_image-35bdf9d7b751789e-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-channel_offline_image-f4e88d4e35841793-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/timthetatman","views":23802320,"followers":653025,"_links":{"self":"https://api.twitch.tv/kraken/channels/timthetatman","follows":"https://api.twitch.tv/kraken/channels/timthetatman/follows","commercial":"https://api.twitch.tv/kraken/channels/timthetatman/commercial","stream_key":"https://api.twitch.tv/kraken/channels/timthetatman/stream_key","chat":"https://api.twitch.tv/kraken/chat/timthetatman","features":"https://api.twitch.tv/kraken/channels/timthetatman/features","subscriptions":"https://api.twitch.tv/kraken/channels/timthetatman/subscriptions","editors":"https://api.twitch.tv/kraken/channels/timthetatman/editors","teams":"https://api.twitch.tv/kraken/channels/timthetatman/teams","videos":"https://api.twitch.tv/kraken/channels/timthetatman/videos"}}}},{"text":"<p>Brian
+        is a professional Magic player and game designer. Mostly streaming Magic Online
+        with fun and lively community interaction, but also tossing in a hint of League
+        of Legends and a splash of excitement. You might find yourself here for awhile.</p>\n\n<br>\n\n\n<p><a
+        href=\"/bmkibler\">Click here to watch and chat live!</a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/bmkibler.png","title":"Brian
+        M. Kibler Magic Pro!","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21507294944,"game":"Hearthstone:
+        Heroes of Warcraft","viewers":5126,"video_height":1080,"average_fps":60,"delay":0,"created_at":"2016-05-25T17:51:02Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_bmkibler-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/bmkibler"},"channel":{"mature":false,"status":"Kibler
+        - DragoNZoth Paladin !audible !allstar ","broadcaster_language":"en","display_name":"bmkibler","game":"Hearthstone:
+        Heroes of Warcraft","language":"en","_id":25871845,"name":"bmkibler","created_at":"2011-11-01T22:06:10Z","updated_at":"2016-05-25T22:34:30Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/bmkibler-profile_image-82e90b2dd9ab468b-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/bmkibler-channel_offline_image-e6cfa7f040914bad-1920x1080.jpeg","background":null,"profile_banner":null,"profile_banner_background_color":"#000000","partner":true,"url":"https://www.twitch.tv/bmkibler","views":6981610,"followers":183441,"_links":{"self":"https://api.twitch.tv/kraken/channels/bmkibler","follows":"https://api.twitch.tv/kraken/channels/bmkibler/follows","commercial":"https://api.twitch.tv/kraken/channels/bmkibler/commercial","stream_key":"https://api.twitch.tv/kraken/channels/bmkibler/stream_key","chat":"https://api.twitch.tv/kraken/chat/bmkibler","features":"https://api.twitch.tv/kraken/channels/bmkibler/features","subscriptions":"https://api.twitch.tv/kraken/channels/bmkibler/subscriptions","editors":"https://api.twitch.tv/kraken/channels/bmkibler/editors","teams":"https://api.twitch.tv/kraken/channels/bmkibler/teams","videos":"https://api.twitch.tv/kraken/channels/bmkibler/videos"}}}},{"text":"<p>Kaypea''s
+        stream is the premier destination for entertainment seeking gamers. Many have
+        expressed their love and appreciation of her videos, gameplay and cat.</p>\n\n<br>\n\n\n<p><a
+        href=\"/kaypealol\">Click here</a> to watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/kaypealol.jpg","title":"KayPea","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21511591008,"game":"Overwatch","viewers":1121,"video_height":1080,"average_fps":30,"delay":0,"created_at":"2016-05-25T22:18:23Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_kaypealol-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/kaypealol"},"channel":{"mature":false,"status":"KayPea
+        !newvideo","broadcaster_language":"en","display_name":"KayPeaLoL","game":"Overwatch","language":"en","_id":42665223,"name":"kaypealol","created_at":"2013-04-20T16:20:29Z","updated_at":"2016-05-25T22:49:19Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/kaypealol-profile_image-09e5c99bec90b2d5-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/kaypealol-channel_offline_image-720276c107cd791f-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/kaypealol","views":12846132,"followers":539342,"_links":{"self":"https://api.twitch.tv/kraken/channels/kaypealol","follows":"https://api.twitch.tv/kraken/channels/kaypealol/follows","commercial":"https://api.twitch.tv/kraken/channels/kaypealol/commercial","stream_key":"https://api.twitch.tv/kraken/channels/kaypealol/stream_key","chat":"https://api.twitch.tv/kraken/chat/kaypealol","features":"https://api.twitch.tv/kraken/channels/kaypealol/features","subscriptions":"https://api.twitch.tv/kraken/channels/kaypealol/subscriptions","editors":"https://api.twitch.tv/kraken/channels/kaypealol/editors","teams":"https://api.twitch.tv/kraken/channels/kaypealol/teams","videos":"https://api.twitch.tv/kraken/channels/kaypealol/videos"}}}},{"text":"<p>Professional
+        Halo player Ninja for Team Liquid teaches, entertains and interacts with his
+        viewers 5 days out of the week, come enjoy his funny shenanigans, hilarious
+        voice impressions, and tips and tricks that he delivers every day on his stream!</p>\n\n<br>\n\n\n<p><a
+        href=\"/ninja\">Click here</a> to watch and chat live!</p>\n\n<p><a href=\"pro,%20esports,%20halo\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/ninja_fpthumb_112014.jpg","title":"Ninja","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21506952416,"game":"H1Z1:
+        King of the Kill","viewers":1317,"video_height":720,"average_fps":61.1111111111,"delay":0,"created_at":"2016-05-25T17:28:59Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/ninja"},"channel":{"mature":false,"status":"All
+        donations go toward my brothers Non profit Org starting now! | Pure Perfection
+        Day 5","broadcaster_language":"en","display_name":"Ninja","game":"H1Z1: King
+        of the Kill","language":"en","_id":19571641,"name":"ninja","created_at":"2011-01-16T04:31:20Z","updated_at":"2016-05-25T22:34:27Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/ninja-profile_image-e5bd984826c3612d-300x300.jpeg","banner":null,"video_banner":null,"background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/ninja-profile_banner-a09cb9e66daa1e6a-480.jpeg","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/ninja","views":18192699,"followers":162148,"_links":{"self":"https://api.twitch.tv/kraken/channels/ninja","follows":"https://api.twitch.tv/kraken/channels/ninja/follows","commercial":"https://api.twitch.tv/kraken/channels/ninja/commercial","stream_key":"https://api.twitch.tv/kraken/channels/ninja/stream_key","chat":"https://api.twitch.tv/kraken/chat/ninja","features":"https://api.twitch.tv/kraken/channels/ninja/features","subscriptions":"https://api.twitch.tv/kraken/channels/ninja/subscriptions","editors":"https://api.twitch.tv/kraken/channels/ninja/editors","teams":"https://api.twitch.tv/kraken/channels/ninja/teams","videos":"https://api.twitch.tv/kraken/channels/ninja/videos"}}}},{"text":"<p>Welcome
+        to Team Tangent; a brotherhood and\nsisterhood of casual and hardcore gamers
+        alike. High energy and high viewer\ninteractivity is Tangent''s creed as he
+        tackles rage inducing challenges\nwhile taking on some of the best (and worst)
+        games from yesterday and\ntoday! If you like Persian kittens, beards and a
+        tightly knit community\nthen Tangentgaming is for you!</p>\n\n<br>\n\n\n<p><a
+        href=\"/tangentgaming\">Click here</a> to watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/TangRageBanner
+        140x78.png","title":"Tangentgaming","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21504542960,"game":"Total
+        War: WARHAMMER","viewers":1547,"video_height":720,"average_fps":60,"delay":0,"created_at":"2016-05-25T14:25:50Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/tangentgaming"},"channel":{"mature":false,"status":"Warhammer
+        Giveaway! - [Hard] Chaos Campaign!","broadcaster_language":"en","display_name":"TangentGaming","game":"Total
+        War: WARHAMMER","language":"en","_id":40314423,"name":"tangentgaming","created_at":"2013-02-14T15:19:05Z","updated_at":"2016-05-25T22:34:05Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_image-d91b58cc81cbcb5d-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-channel_offline_image-1e09a1314d3708b2-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_banner-0ca2e5010c14968c-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/tangentgaming","views":3455904,"followers":130172,"_links":{"self":"https://api.twitch.tv/kraken/channels/tangentgaming","follows":"https://api.twitch.tv/kraken/channels/tangentgaming/follows","commercial":"https://api.twitch.tv/kraken/channels/tangentgaming/commercial","stream_key":"https://api.twitch.tv/kraken/channels/tangentgaming/stream_key","chat":"https://api.twitch.tv/kraken/chat/tangentgaming","features":"https://api.twitch.tv/kraken/channels/tangentgaming/features","subscriptions":"https://api.twitch.tv/kraken/channels/tangentgaming/subscriptions","editors":"https://api.twitch.tv/kraken/channels/tangentgaming/editors","teams":"https://api.twitch.tv/kraken/channels/tangentgaming/teams","videos":"https://api.twitch.tv/kraken/channels/tangentgaming/videos"}}}},{"text":"<p>itmeJP
+        is a veteran of Twitch, starting his streaming career alongside the website
+        years ago. These days you can find him playing a multitude of games including
+        old school favorites and new releases. Subscribers, or itmeNATION as they
+        prefer to be called, go crazy for his table-top franchise, RollPlay, occuring
+        weekly across four shows. Stop by and join in the fun!</p>\n\n<br>\n\n\n<p><a
+        href=\"/itmejp\">Click here</a> to watch and chat live!</p>\n\n<p><a href=\"personality,%20variety,%20community,%20esports\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/itmejp_fpthumb_102515.png","title":"itmejp","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21510299920,"game":"Gaming
+        Talk Shows","viewers":7769,"video_height":1080,"average_fps":30.0075018755,"delay":0,"created_at":"2016-05-25T20:51:52Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_itmejp-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/itmejp"},"channel":{"mature":true,"status":"Dropped
+        Frames | !DFE3 | w/ @CohhCarnage @Ezekiel_III","broadcaster_language":"en","display_name":"itmeJP","game":"Gaming
+        Talk Shows","language":"en","_id":10817445,"name":"itmejp","created_at":"2010-02-28T09:30:51Z","updated_at":"2016-05-25T22:33:58Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/itmejp-profile_image-64703923f21827e3-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/itmejp-channel_offline_image-b6a3081f062bca44-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/itmejp-profile_banner-4a0a3242b7445758-480.png","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/itmejp","views":38212748,"followers":235760,"_links":{"self":"https://api.twitch.tv/kraken/channels/itmejp","follows":"https://api.twitch.tv/kraken/channels/itmejp/follows","commercial":"https://api.twitch.tv/kraken/channels/itmejp/commercial","stream_key":"https://api.twitch.tv/kraken/channels/itmejp/stream_key","chat":"https://api.twitch.tv/kraken/chat/itmejp","features":"https://api.twitch.tv/kraken/channels/itmejp/features","subscriptions":"https://api.twitch.tv/kraken/channels/itmejp/subscriptions","editors":"https://api.twitch.tv/kraken/channels/itmejp/editors","teams":"https://api.twitch.tv/kraken/channels/itmejp/teams","videos":"https://api.twitch.tv/kraken/channels/itmejp/videos"}}}},{"text":"<p>Cirno
+        is a community driven speedrunner that primarily enjoys old FPS titles. DooM
+        2, Half-Life, System Shock 2 and Quake are just a few examples of what you''ll
+        find here.</p>\n\n<br>\n\n\n<p><a href=\"/cirno_tv\">Come watch and enjoy</a>!</p>\n\n<p><a
+        href=\"speedrunner,%20variety\"></a></p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/cirnotv.png","title":"CirnoTV","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21510414064,"game":"Dark
+        Souls III","viewers":1752,"video_height":720,"average_fps":60.0583090379,"delay":0,"created_at":"2016-05-25T20:59:19Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_cirno_tv-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/cirno_tv"},"channel":{"mature":false,"status":"Dark
+        Souls III All Bosses! No resets after curse rotted","broadcaster_language":"en","display_name":"Cirno_TV","game":"Dark
+        Souls III","language":"en","_id":24761645,"name":"cirno_tv","created_at":"2011-09-12T03:14:37Z","updated_at":"2016-05-25T22:34:33Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/cirno_tv-profile_image-0eae52249cb6fecb-300x300.jpeg","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/cirno_tv-channel_offline_image-6a5f6f2ecf75023b-1920x1080.png","background":null,"profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/cirno_tv-profile_banner-c6359b4dc3ed7687-480.jpeg","profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/cirno_tv","views":7852502,"followers":137450,"_links":{"self":"https://api.twitch.tv/kraken/channels/cirno_tv","follows":"https://api.twitch.tv/kraken/channels/cirno_tv/follows","commercial":"https://api.twitch.tv/kraken/channels/cirno_tv/commercial","stream_key":"https://api.twitch.tv/kraken/channels/cirno_tv/stream_key","chat":"https://api.twitch.tv/kraken/chat/cirno_tv","features":"https://api.twitch.tv/kraken/channels/cirno_tv/features","subscriptions":"https://api.twitch.tv/kraken/channels/cirno_tv/subscriptions","editors":"https://api.twitch.tv/kraken/channels/cirno_tv/editors","teams":"https://api.twitch.tv/kraken/channels/cirno_tv/teams","videos":"https://api.twitch.tv/kraken/channels/cirno_tv/videos"}}}},{"text":"<p>ZFG
+        is a top speedrunner for The Legend of Zelda: Ocarina of time. Come watch
+        one of the greatest games of all time torn to pieces!</p>\n\n<br>\n\n\n<p><a
+        href=\"/zfg1\">Click here</a> to watch and chat!</p>\n","image":"http://s.jtvnw.net/jtv_user_pictures/hosted_images/Zfg_fp_thumb.png","title":"ZFG","sponsored":false,"priority":10,"scheduled":false,"stream":{"_id":21508763200,"game":"The
+        Legend of Zelda: Ocarina of Time","viewers":1526,"video_height":720,"average_fps":30,"delay":0,"created_at":"2016-05-25T19:17:14Z","is_playlist":false,"preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_zfg1-{width}x{height}.jpg"},"_links":{"self":"https://api.twitch.tv/kraken/streams/zfg1"},"channel":{"mature":false,"status":"Zelda:
+        Ocarina of Time 100% Speedrun","broadcaster_language":"en","display_name":"Zfg1","game":"The
+        Legend of Zelda: Ocarina of Time","language":"en","_id":8683614,"name":"zfg1","created_at":"2009-10-12T22:49:29Z","updated_at":"2016-05-25T22:34:03Z","delay":null,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/zfg1-profile_image-2643dd004eceaf08-300x300.png","banner":null,"video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/zfg1-channel_offline_image-927763cfdbf76f43-1920x1080.png","background":null,"profile_banner":null,"profile_banner_background_color":null,"partner":true,"url":"https://www.twitch.tv/zfg1","views":6136922,"followers":66305,"_links":{"self":"https://api.twitch.tv/kraken/channels/zfg1","follows":"https://api.twitch.tv/kraken/channels/zfg1/follows","commercial":"https://api.twitch.tv/kraken/channels/zfg1/commercial","stream_key":"https://api.twitch.tv/kraken/channels/zfg1/stream_key","chat":"https://api.twitch.tv/kraken/chat/zfg1","features":"https://api.twitch.tv/kraken/channels/zfg1/features","subscriptions":"https://api.twitch.tv/kraken/channels/zfg1/subscriptions","editors":"https://api.twitch.tv/kraken/channels/zfg1/editors","teams":"https://api.twitch.tv/kraken/channels/zfg1/teams","videos":"https://api.twitch.tv/kraken/channels/zfg1/videos"}}}}]}'
+    http_version: 
+  recorded_at: Wed, 25 May 2016 22:52:08 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,79 @@
+$white: #fff;
+$primary-purple: #6441a4;
+$secondary-purple: #7550b9;
+$purple-shadow: #4e3380;
+
+.nav-link {
+  color: #f4f4f4;
+}
+
+.navbar-background {
+  background-color: #34373b;
+}
+
+.nav-item a:hover {
+  color: $white;
+}
+
+.logo-box {
+  background-color: #fff !important;
+  height: 100%;
+}
+
+.navbar {
+  font-family: "Oswald";
+  font-size: 16px;
+}
+
+.navbar-nav > li {
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.padded-link {
+  padding: 0 0 0 12px;
+}
+
+.logo {
+  max-height: 36px;
+  padding: 3px 0;
+}
+
+.navbar-brand {
+  padding: 0;
+
+  img {
+    height: 100%;
+    width: auto;
+    padding: 15px;
+  }
+}
+
+.btn-purple {
+  background-color: $primary-purple;
+  box-shadow: 0 3px 0 0 $purple-shadow;
+  color: $white;
+  font-size: 16px !important;
+  width: 96px;
+}
+
+.btn-purple:hover {
+  background-color: $secondary-purple;
+
+  a {
+    color: $white !important;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $white !important;
+    text-decoration: none;
+  }
+}
+
+.nav-avatar {
+  border-radius: 50%;
+  max-height: 36px;
+  padding: 3px 0;
+}

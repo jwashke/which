@@ -16,3 +16,4 @@
 /config/application.yml
 .byebug_history
 coverage
+/spec/cassettes

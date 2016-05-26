@@ -1,12 +1,5 @@
 <div class="top-margin">
   <div class="container">
-    <div class="row">
-      <% if current_user %>
-        <h1>Your followed streams</h1>
-      <% else %>
-        <h1>Featured Streams</h1>
-      <% end %>
-    </div>
     <% @streams.each_slice(3) do |three_streams| %>
       <div class="row">
         <% three_streams.each do |stream| %>

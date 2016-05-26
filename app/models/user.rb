@@ -10,6 +10,7 @@ class User < ActiveRecord::Base
       new_user.display_name = auth_info.extra.raw_info.display_name
       new_user.email        = auth_info.extra.raw_info.email
       new_user.token        = auth_info.credentials.token
+      new_user.avatar       = auth_info.extra.raw_info.logo
     end
   end
 end
