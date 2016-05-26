@@ -31,4 +31,12 @@ class Stream
       Stream.new(raw_stream)
     end
   end
+
+  def follow(username, token)
+    TwitchService.new.follow(name, username, token)
+  end
+
+  def unfollow(username, token)
+    TwitchService.new.unfollow(name, username, token)
+  end
 end

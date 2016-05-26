@@ -9,6 +9,7 @@
             <p>Viewers: <%= stream.viewers %></p>
             <p><%= stream.description %></p>
             <%= link_to "View Stream", stream_path(stream.name) %>
+            <%= link_to "Follow Stream", follows_path(id: stream.name), method: :post %>
           </div>
         <% end %>
       </div>

@@ -15,6 +15,7 @@
             <h5><%= stream.name %></h5>
             <p>Viewers: <%= stream.viewers %></p>
             <p><%= stream.description %></p>
+            <%= link_to_unfollow(stream.name) %>
             <%= link_to "View Stream", stream_path(stream.name) %>
           </div>
         <% end %>

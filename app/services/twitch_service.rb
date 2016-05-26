@@ -27,6 +27,16 @@ class TwitchService
     parse(get_channel(channel))[:streams]
   end
 
+  def follow(channel, user, token)
+    connection.headers["Authorization"] = "OAuth #{token}"
+    connection.put("users/#{user}/follows/channels/#{channel}")
+  end
+
+  def unfollow(channel, user, token)
+    connection.headers["Authorization"] = "OAuth #{token}"
+    connection.delete("users/#{user}/follows/channels/#{channel}")
+  end
+
   private
 
   def get_followed(token)
